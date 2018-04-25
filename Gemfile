@@ -55,5 +55,5 @@ gem 'pry-byebug', group: :development
 gem 'kaminari'
 
 group :production do
-  gem 'pg', '0.21.0'
+  gem 'sqlite3', group: :development
 end
